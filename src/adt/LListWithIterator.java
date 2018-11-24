@@ -24,7 +24,7 @@ public class LListWithIterator<T> implements ListWithIteratorInterface<T> {
 
     if (isEmpty()) {
       firstNode = newNode;
-    } else {                        // add to end of nonempty list
+    } else {                       
       Node currentNode = firstNode;					// traverse linked list with p pointing to the current node
       while (currentNode.next != null) {		// while have not reached the last node
         currentNode = currentNode.next;
